@@ -1,2 +1,2 @@
-FROM gitpod/workspace-full:latest
+FROM ruby:latest
 RUN gem install shopify-cli
