@@ -1,6 +1,7 @@
+image:
+  file: .gitpod.Dockerfile
 tasks:
-  - init: gem install shopify-cli
-    command: shopify login --store 
+  - command: shopify login --store https://true-work-digital-sandbox.myshopify.com/admin
 ports:
   - name: Shopify CLI
     description: Login Port
